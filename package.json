@@ -1,5 +1,5 @@
 {
-  "name": "ApiRest",
+  "name": "apirest",
   "version": "1.0.0",
   "description": "\"# ApiSSa\"",
   "main": "index.js",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sarpalot/ApiSSa/issues"
   },
-  "homepage": "https://github.com/Sarpalot/ApiSSa#readme"
+  "homepage": "https://github.com/Sarpalot/ApiSSa#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
