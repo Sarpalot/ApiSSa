@@ -1,0 +1,26 @@
+<head>
+    <meta charset="utf-8" />
+
+    <body>
+        <h1>Hello World</h1>
+
+        <ul></ul>
+
+        <script>
+            let ul = document.querySelector("ul");
+
+            const updateUI = (customers) => {
+                let liArray = customers.map((customer) => `<li>${customer.name}</li>`);
+                let mj = liArray.join("\n");
+                console.log(mj);
+                ul.innerHTML = mj;
+            };
+
+            const main = async() => {
+                let hr = await fetch("http://localhost:8080/api/customers");
+                let customers = await hr.json();
+                updateUI(customers);
+            };
+        </script>
+    </body>
+</head>

@@ -1,0 +1,20 @@
+{
+  "name": "ApiRest",
+  "version": "1.0.0",
+  "description": "\"# ApiSSa\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarpalot/ApiSSa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarpalot/ApiSSa/issues"
+  },
+  "homepage": "https://github.com/Sarpalot/ApiSSa#readme"
+}
