@@ -5,8 +5,8 @@ const port = process.env.PORT || 8080;
 app.use(express.static('public'));
 
 let database = [
-    { id: 1, latitude: 60, longitude: 20 },
-    { id: 2, latitude: 0, longitude: 0 },
+    { id: 1, latitude: 60, longitude: 70 },
+    { id: 2, latitude: 40, longitude: 80 },
 ];
 
 app.get('/api/locations', (req, res) => {
